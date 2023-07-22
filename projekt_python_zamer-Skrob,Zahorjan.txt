@@ -1,0 +1,39 @@
+Název: Porovnání dvou textů
+
+Členové: Ondřej Škrob a Mário Zahorjan 
+
+Popis:
+	-specifikace cíle:
+
+		Cílem projektu je vytvořit program pro porovnání (určení podobnosti) 2 textů podle několika metrik,
+		které budou implementovatelné s využitím námi zvolených reprezentaci textů. Texty jsme se rezhodli reprezentovat pomocí Count Vector a TF-IDF. 
+		Takto reprezentované texty bychom rádi porovnali pomocí metrik cosine distance, euclidian distance a 0. Jaccard Similarity.
+	
+		Vpřípadě, že nám zbyde čas bychom rádi přidali možnost výsledky porovnání ilustrovat graficky.		
+
+	-zapojení členů týmu:
+
+		Ondřej Škrob: TF-IDF, cosine distance, Jaccard Similarity. 
+		Mário Zahorjan: Count Vector, euclidian distance, (grafická reprezentace).
+		Oba: Načtení textů do programu.
+
+	-plánovaný seznam knihoven:
+		
+		sklearn
+		numpy
+		scipy
+		math
+		plotly
+
+	-ostatní:
+		
+		Zatím jsme nezjistili, zda sklearn TfidfVectorizer a CountVectorizer obsahuje i lemmatizátor. Pokud sklearn lematizátor neobsahuje bylo by potřeba zvážit,
+		jestli jednotlivá slova potřebujeme v základním tvaru a pokud ano museli bychom se ještě dodatečně nějakou knihovnu na lematizaci zajistit.
+
+		Zároveň předpokládáme, že knihovny obsahují nějaký vlastní korpus slov, v opačném případě by bylo potřeba například pro výpočet IDF potřeba nějaký korpus zajistit.
+
+		Máme v úmsylu primárně porovnávat anglické texty, protože angličtina je pro naše účely vhodnější než čeština, nebo slovenština.
+
+		
+
+	

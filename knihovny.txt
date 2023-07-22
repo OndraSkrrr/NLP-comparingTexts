@@ -1,0 +1,45 @@
+CountVectorizer --- sklearn
+
+	https://www.educative.io/edpresso/countvectorizer-in-python
+
+	from sklearn.feature_extraction.text import CountVectorizer
+
+TF-IDF --- sklearn
+	
+	https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
+	https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/03-TF-IDF-Scikit-Learn.html
+
+	from sklearn.feature_extraction.text import TfidfVectorizer
+	from sklearn.feature_extraction.text import CountVectorizer
+
+Euclidean distance --- numpy, scipy 
+
+	https://stackoverflow.com/questions/1401712/how-can-the-euclidean-distance-be-calculated-with-numpy
+
+	from scipy.spatial import distance
+
+	import numpy
+	import perfplot
+	from scipy.spatial import distance
+	
+Cosine distance --- scipy
+
+	https://stackoverflow.com/questions/18424228/cosine-similarity-between-2-number-lists	
+
+	from scipy import spatial
+
+Jaccard Similarity --- scipy, sklearn
+
+	https://python-bloggers.com/2021/12/jaccard-similarity-and-jaccard-distance-in-python/#:~:text=In%20Python%20programming%2C%20Jaccard%20similarity,set%20intersection%20over%20set%20union.
+
+	import numpy as np
+	from scipy.spatial.distance import jaccard
+	from sklearn.metrics import jaccard_score
+
+Matika (případná) - Math
+
+Grafika (případná) - Plotly
+
+BeautifulSoup - html na text
+
+pywebio
